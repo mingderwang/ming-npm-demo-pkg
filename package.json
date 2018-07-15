@@ -1,11 +1,11 @@
 {
   "name": "ming-npm-demo-pkg",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "test npm publish",
   "main": "index.js",
   "author": "ming-der wang",
   "license": "MIT",
   "dependencies": {
-    "ming-npm-demo-pkg": "^1.0.0"
+    "ming-npm-demo-pkg": "^1.0.1"
   }
 }
