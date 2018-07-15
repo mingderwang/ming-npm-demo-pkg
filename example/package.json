@@ -1,0 +1,12 @@
+{
+  "name": "ming-npm-demo-pkg-example",
+  "version": "1.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "ming-npm-demo-pkg": "^1.0.1"
+  }
+}
