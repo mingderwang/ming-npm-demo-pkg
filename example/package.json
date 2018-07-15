@@ -7,6 +7,6 @@
     "dev": "node index.js"
   },
   "dependencies": {
-    "ming-npm-demo-pkg": "^1.0.1"
+    "ming-npm-demo-pkg": "^1.0.3"
   }
 }

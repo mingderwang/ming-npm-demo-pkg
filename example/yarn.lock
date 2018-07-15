@@ -2,8 +2,19 @@
 # yarn lockfile v1
 
 
+colors@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/colors/-/colors-1.3.0.tgz#5f20c9fef6945cb1134260aab33bfbdc8295e04e"
+
 ming-npm-demo-pkg@^1.0.0, ming-npm-demo-pkg@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/ming-npm-demo-pkg/-/ming-npm-demo-pkg-1.0.1.tgz#e6c1261174f5b916d100342e4e1481b90fd86d7d"
   dependencies:
     ming-npm-demo-pkg "^1.0.0"
+
+ming-npm-demo-pkg@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/ming-npm-demo-pkg/-/ming-npm-demo-pkg-1.0.3.tgz#3696ff612dba450ee80074e5aff997bdc2379df8"
+  dependencies:
+    colors "^1.3.0"
+    ming-npm-demo-pkg "^1.0.1"

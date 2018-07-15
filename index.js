@@ -1,10 +1,12 @@
 'use strict';
+var colors = require('colors');
 
 // Example 1: Creating a new class (declaration-form)
 // ===============================================================
 
 // A base class is defined using the new reserved 'class' keyword
 module.exports = class Polygon {
+//class Polygon {
   // ..and an (optional) custom class constructor. If one is
   // not supplied, a default constructor is used instead:
   // constructor() { }
@@ -17,7 +19,7 @@ module.exports = class Polygon {
   // Simple class instance methods using short-hand method
   // declaration
   sayName() {
-    console.log('Hi, I am a ', this.name + '.');
+    console.log('Hi, I am a '.yellow, this.name + '.'.red);
   }
 
   sayHistory() {
