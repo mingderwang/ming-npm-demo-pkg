@@ -1,11 +1,19 @@
 {
   "name": "ming-npm-demo-pkg",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "test npm publish",
   "main": "index.js",
   "author": "ming-der wang",
   "license": "MIT",
   "dependencies": {
     "colors": "^1.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mingderwang/ming-npm-demo-pkg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mingderwang/ming-npm-demo-pkg/issues"
+  },
+  "homepage": "https://github.com/mingderwang/ming-npm-demo-pkg"
 }
